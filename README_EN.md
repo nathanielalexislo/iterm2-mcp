@@ -2,7 +2,7 @@
 
 [中文](README.md) | [English](README_EN.md)
 
-A Model Context Protocol server that provides access to your iTerm2 session.
+A Model Context Protocol local server that provides access to your iTerm2 session.
 
 ### Features
 

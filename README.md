@@ -2,7 +2,7 @@
 
 [中文](README.md) | [English](README_EN.md)
 
-一个 Model Context Protocol (MCP) 服务器，提供对 iTerm2 终端会话的访问能力。
+一个 Model Context Protocol (MCP) 本地服务器，提供对 iTerm2 终端会话的访问能力。
 
 ### 特性
 
