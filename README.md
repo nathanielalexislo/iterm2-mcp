@@ -39,21 +39,8 @@
 
 ## 通过 Claude Code CLI 安装
 
-将以下内容添加到 Claude Code MCP 配置文件 (`~/.claude/settings.json`) 中：
-
-```json
-{
-  "mcpServers": {
-    "iterm2-mcp": {
-      "type": "stdio",
-      "command": "node",
-      "args": [
-        "/path/to/iterm2-mcp/build/index.js"
-      ],
-      "env": {}
-    }
-  }
-}
+```bash
+claude mcp add iterm2-mcp -- node /path/to/iterm2-mcp/build/index.js
 ```
 
 ## 开发

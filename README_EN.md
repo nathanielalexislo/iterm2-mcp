@@ -36,21 +36,8 @@ A Model Context Protocol server that provides access to your iTerm2 session.
 
 ## Installing via Claude Code CLI
 
-Add the following to your Claude Code MCP settings (`~/.claude/settings.json`):
-
-```json
-{
-  "mcpServers": {
-    "iterm2-mcp": {
-      "type": "stdio",
-      "command": "node",
-      "args": [
-        "/path/to/iterm2-mcp/build/index.js"
-      ],
-      "env": {}
-    }
-  }
-}
+```bash
+claude mcp add iterm2-mcp -- node /path/to/iterm2-mcp/build/index.js
 ```
 
 ## Development
